@@ -1,0 +1,492 @@
+{
+  "generatedAt": "2026-10-25T13:49:29.799Z",
+  "sourceRoot": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026",
+  "panels": [
+    {
+      "reference": "PUB-2026-001",
+      "label": "Democracie",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\Democracie\\IMG_8045.jpg",
+      "coverImage": "panel-2026-001.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-002",
+      "label": "KALIKAK",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\KALIKAK\\IMG_7989.jpg",
+      "coverImage": "panel-2026-002.jpg",
+      "point": {
+        "latitude": 0.4317305,
+        "longitude": 9.423805,
+        "displayName": "Kalikak, Haut de Gué-Gué, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-003",
+      "label": "N° 13 AGENCE G.TELECOM ANC RTG",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 13 AGENCE G.TELECOM ANC RTG\\IMG_8045.jpg",
+      "coverImage": "panel-2026-003.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-004",
+      "label": "N° 19 FEU TRICOLORES GROS BOUQUET",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 19 FEU TRICOLORES GROS BOUQUET\\IMG_5789.jpg",
+      "coverImage": "panel-2026-004.jpg",
+      "point": {
+        "latitude": 0.4199906,
+        "longitude": 9.428891,
+        "displayName": "École Conventionnée Gros Bouquet 1, Avenue Valentin Mihindou Mi Nzamba, Batterie 4, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-005",
+      "label": "N° 21 ENTREE VOIE DE CONTOUNEMENT",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 21 ENTREE VOIE DE CONTOUNEMENT\\IMG_3037.jpg",
+      "coverImage": "panel-2026-005.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-006",
+      "label": "N° 21 KALIKAK",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 21 KALIKAK\\IMG_7989.jpg",
+      "coverImage": "panel-2026-006.jpg",
+      "point": {
+        "latitude": 0.4317305,
+        "longitude": 9.423805,
+        "displayName": "Kalikak, Haut de Gué-Gué, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-007",
+      "label": "N° 21 KALIKAK — KALIKAK",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 21 KALIKAK\\KALIKAK\\IMG_7989.jpg",
+      "coverImage": "panel-2026-007.jpg",
+      "point": {
+        "latitude": 0.4317305,
+        "longitude": 9.423805,
+        "displayName": "Kalikak, Haut de Gué-Gué, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-008",
+      "label": "N° 22 Rond point de la democratie",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 22 Rond point de la democratie\\IMG_2438.jpg",
+      "coverImage": "panel-2026-008.jpg",
+      "point": {
+        "latitude": 0.4249165,
+        "longitude": 9.4553274,
+        "displayName": "Rond-Point de la Démocratie, Charbonnages, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-009",
+      "label": "N° 31 PK7 STATION OLA",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 31 PK7 STATION OLA\\IMG_2382.jpg",
+      "coverImage": "panel-2026-009.jpg",
+      "point": {
+        "latitude": 0.4067411,
+        "longitude": 9.4859632,
+        "displayName": "OLA Energy PK7, Transgabonaise, PK5, Bassin du PK5, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-010",
+      "label": "N° 33 IAI-MUR DU GOLF",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 33 IAI-MUR DU GOLF\\IMG_4802.jpg",
+      "coverImage": "panel-2026-010.jpg",
+      "point": {
+        "latitude": 0.3697535,
+        "longitude": 9.4803887,
+        "displayName": "Institut Africain d'Informatique, Avenue Sophie Ntoutoume Emane, I.A.I-Golf, Mindoube 1, 3ème Arrondissement, Libreville, Estuaire, 8929, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-011",
+      "label": "N° 34 Echangeur de lalala avant",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 34 Echangeur de lalala avant\\IMG_2058.jpg",
+      "coverImage": "panel-2026-011.jpg",
+      "point": {
+        "latitude": 0.3709641,
+        "longitude": 9.4764893,
+        "displayName": "Echangeur IAI, I.A.I-Golf, Lalala-Gauche, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-012",
+      "label": "N° 6 Carrefour BOULINGUI",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 6 Carrefour BOULINGUI\\IMG_2125.jpg",
+      "coverImage": "panel-2026-012.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-013",
+      "label": "N° 6 Carrefour BOULINGUI — SENS PETIT DUBAI- CARREFOUR BOULINGUI",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 6 Carrefour BOULINGUI\\SENS PETIT DUBAI- CARREFOUR BOULINGUI\\IMG_7859.jpg",
+      "coverImage": "panel-2026-013.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-014",
+      "label": "N° 8 GLASS — GLASS",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 8 GLASS\\GLASS\\IMG_7833-2.jpg",
+      "coverImage": "panel-2026-014.jpg",
+      "point": {
+        "latitude": 0.3790377,
+        "longitude": 9.4543186,
+        "displayName": "EBOMAF GABON SA, Avenue Engel Onewin, Toulon, Glass, 3ème Arrondissement, Libreville, Estuaire, 3403, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-015",
+      "label": "N° 8 GLASS — SENS GLASS-OLOUMI",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 8 GLASS\\SENS GLASS-OLOUMI\\IMG_2124.jpg",
+      "coverImage": "panel-2026-015.jpg",
+      "point": {
+        "latitude": 0.3718202,
+        "longitude": 9.4607792,
+        "displayName": "Kia Gabon, Avenue Roi Denis Rapontchombo, Michel Marine, Oloumi, 3ème Arrondissement, Libreville, Estuaire, 2181, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-016",
+      "label": "N° 8 GLASS — SENS OLOUMI - GLASS",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 8 GLASS\\SENS OLOUMI - GLASS\\IMG_7833-2.jpg",
+      "coverImage": "panel-2026-016.jpg",
+      "point": {
+        "latitude": 0.3718202,
+        "longitude": 9.4607792,
+        "displayName": "Kia Gabon, Avenue Roi Denis Rapontchombo, Michel Marine, Oloumi, 3ème Arrondissement, Libreville, Estuaire, 2181, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-017",
+      "label": "N° 9 RESIDENCE JADE",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N° 9 RESIDENCE JADE\\IMG_4847.jpg",
+      "coverImage": "panel-2026-017.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-018",
+      "label": "N°1 SOGATOL",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°1 SOGATOL\\SENS AWENDJE -IAI.jpg",
+      "coverImage": "panel-2026-018.jpg",
+      "point": {
+        "latitude": 0.3768019,
+        "longitude": 9.4735577,
+        "displayName": "Mairie de Sogatol, Boulevard des Bantu, I.A.I-Golf, Awendjé, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-019",
+      "label": "N°1 SOGATOL — Sogatol",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°1 SOGATOL\\Sogatol\\IMG_2049.jpg",
+      "coverImage": "panel-2026-019.jpg",
+      "point": {
+        "latitude": 0.3768019,
+        "longitude": 9.4735577,
+        "displayName": "Mairie de Sogatol, Boulevard des Bantu, I.A.I-Golf, Awendjé, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-020",
+      "label": "N°10 JEAN PAUL 2 BEAC — SENS CARREFOUR BESSIEUX-BEAC",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°10 JEAN PAUL 2 BEAC\\SENS CARREFOUR BESSIEUX-BEAC\\IMG_4730.jpg",
+      "coverImage": "panel-2026-020.jpg",
+      "point": {
+        "latitude": 0.4042833,
+        "longitude": 9.4440061,
+        "displayName": "Avenue Jean-Paul II, Plaine Orety, Vallée Sainte-Marie, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-021",
+      "label": "N°14 BALLON D'OR . SENS AEROPORT-AKANDA",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°14 BALLON D'OR . SENS AEROPORT-AKANDA\\IMG_3079.jpg",
+      "coverImage": "panel-2026-021.jpg",
+      "point": {
+        "latitude": 0.4681482,
+        "longitude": 9.4041893,
+        "displayName": "BGFIBank, Boulevard Georges Rawiri, Mikolongo, Sablière, 2ème Arrondissement d'Akanda, Akanda, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-022",
+      "label": "N°14 ROND POINT DE LA DEMOCRATIE. SENS LAC BLEU-DEMOCRATIE",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°14 ROND POINT DE LA DEMOCRATIE. SENS LAC BLEU-DEMOCRATIE\\IMG_3017.jpg",
+      "coverImage": "panel-2026-022.jpg",
+      "point": {
+        "latitude": 0.4249165,
+        "longitude": 9.4553274,
+        "displayName": "Rond-Point de la Démocratie, Charbonnages, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-023",
+      "label": "N°15 LAC BLEU",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°15 LAC BLEU\\IMG_2499.jpg",
+      "coverImage": "panel-2026-023.jpg",
+      "point": {
+        "latitude": 0.4331965,
+        "longitude": 9.445375,
+        "displayName": "Impasse du Lac bleu, Charbonnages, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-024",
+      "label": "N°16 BAS DE GUEGUE (PRIX IMPORT)",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°16 BAS DE GUEGUE (PRIX IMPORT)\\N°16        .jpg",
+      "coverImage": "panel-2026-024.jpg",
+      "point": {
+        "latitude": 0.4320857,
+        "longitude": 9.4379555,
+        "displayName": "Carrefour Market, Avenue Jean Pierre AMBOUROUET DEMBA, Bas de Gué-Gué, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, 2176, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-025",
+      "label": "N°21 ENTREE VOIE DE CONTOURNEMENT",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°21 ENTREE VOIE DE CONTOURNEMENT\\IMG_2547.jpg",
+      "coverImage": "panel-2026-025.jpg",
+      "point": {
+        "latitude": 0.4485255,
+        "longitude": 9.4190237,
+        "displayName": "Voie de contournement de l'aéroport Léon Mba, Tahiti, 1er Arrondissement de Libreville, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-026",
+      "label": "N°22 POSTE D'AKEBE",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°22 POSTE D'AKEBE\\N°23 POSTE D'AKEBE.jpg",
+      "coverImage": "panel-2026-026.jpg",
+      "point": {
+        "latitude": 0.3990038,
+        "longitude": 9.4591127,
+        "displayName": "La Poste, 15, Rue Soeur Hyacinthe Antini, PK5, Peyrie, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-027",
+      "label": "N°22 ROND POINT COMMISSARIAT CENTRAL — FACE COMMISSARIAT",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°22 ROND POINT COMMISSARIAT CENTRAL\\FACE COMMISSARIAT\\IMG_2187.jpg",
+      "coverImage": "panel-2026-027.jpg",
+      "point": {
+        "latitude": 0.3889946,
+        "longitude": 9.4470588,
+        "displayName": "Pharmacie du Commissariat Central, Avenue Docteur Albert Schweitzer, Nombakele, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-028",
+      "label": "N°26 PETIT PARIS",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°26 PETIT PARIS\\IMG_2117.jpg",
+      "coverImage": "panel-2026-028.jpg",
+      "point": {
+        "latitude": 0.396632,
+        "longitude": 9.4501391,
+        "displayName": "Petit Paris, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-029",
+      "label": "N°27 COSMOPARC",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°27 COSMOPARC\\IMG_2263.jpg",
+      "coverImage": "panel-2026-029.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-030",
+      "label": "N°28 CHARBONNAGES MARCHE MUNICIPAL",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°28 CHARBONNAGES MARCHE MUNICIPAL\\IMG_8032.jpg",
+      "coverImage": "panel-2026-030.jpg",
+      "point": {
+        "latitude": 0.4245026,
+        "longitude": 9.4609934,
+        "displayName": "Gab’Oil, Boulevard des Bantu, Charbonnages, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-031",
+      "label": "N°28 MARCHE MUNICIPAL DES CHARBONNAGES — SENS BIMA- CHARBONNAGE",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°28 MARCHE MUNICIPAL DES CHARBONNAGES\\SENS BIMA- CHARBONNAGE\\IMG_8032.jpg",
+      "coverImage": "panel-2026-031.jpg",
+      "point": {
+        "latitude": 0.4245026,
+        "longitude": 9.4609934,
+        "displayName": "Gab’Oil, Boulevard des Bantu, Charbonnages, 1er Arrondissement de Libreville, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-032",
+      "label": "N°29 ECHANGEUR Nzeng AYONG",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°29 ECHANGEUR Nzeng AYONG\\IMG_0529.jpg",
+      "coverImage": "panel-2026-032.jpg",
+      "point": {
+        "latitude": 0.4212842,
+        "longitude": 9.465875,
+        "displayName": "Echangeur de Nzeng Ayong, Cité de la Caisse, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-033",
+      "label": "N°32 PK10",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°32 PK10\\IMG_4833.jpg",
+      "coverImage": "panel-2026-033.jpg",
+      "point": {
+        "latitude": 0.3718202,
+        "longitude": 9.4607792,
+        "displayName": "Kia Gabon, Avenue Roi Denis Rapontchombo, Michel Marine, Oloumi, 3ème Arrondissement, Libreville, Estuaire, 2181, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-034",
+      "label": "N°35 Echangeur de lalala apres",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°35 Echangeur de lalala apres\\IMG_0509.jpg",
+      "coverImage": "panel-2026-034.jpg",
+      "point": {
+        "latitude": 0.3709641,
+        "longitude": 9.4764893,
+        "displayName": "Echangeur IAI, I.A.I-Golf, Lalala-Gauche, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-035",
+      "label": "N°4 2ème PANNEAU CAMP AISSA",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°4 2ème PANNEAU CAMP AISSA\\IMG_4841.jpg",
+      "coverImage": "panel-2026-035.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-036",
+      "label": "N°4 CAMP AISSA 1",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°4 CAMP AISSA 1\\IMG_2603.jpg",
+      "coverImage": "panel-2026-036.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-037",
+      "label": "N°4 OLOUMI-FACE BATI PLUS",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°4 OLOUMI-FACE BATI PLUS\\IMG_4780.jpg",
+      "coverImage": "panel-2026-037.jpg",
+      "point": {
+        "latitude": 0.3718202,
+        "longitude": 9.4607792,
+        "displayName": "Kia Gabon, Avenue Roi Denis Rapontchombo, Michel Marine, Oloumi, 3ème Arrondissement, Libreville, Estuaire, 2181, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-038",
+      "label": "N°5 PETIT DUBAI",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°5 PETIT DUBAI\\IMG_2167.jpg",
+      "coverImage": "panel-2026-038.jpg",
+      "point": {
+        "latitude": 0.37891,
+        "longitude": 9.4657459,
+        "displayName": "Petit Dubai, Avenue Joseph Ndong Biteghe, Zone industrielle d'oloumi, Oloumi, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-039",
+      "label": "N°7 PLAINE NIGER FACE CARREFOUR BOULINGUI",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°7 PLAINE NIGER FACE CARREFOUR BOULINGUI\\IMG_6089.jpg",
+      "coverImage": "panel-2026-039.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-040",
+      "label": "N°7 PLAINE NIGER FACE CARREFOUR BOULINGUI — PLEIN NIGER",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°7 PLAINE NIGER FACE CARREFOUR BOULINGUI\\PLEIN NIGER\\IMG_4759.jpg",
+      "coverImage": "panel-2026-040.jpg",
+      "point": null
+    },
+    {
+      "reference": "PUB-2026-041",
+      "label": "N°9 AVENUE JEAN PAUL II-MARTINE OULABOU — SENS  MARTINE OULABOU- CARREFOUR BESSIEUX",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°9 AVENUE JEAN PAUL II-MARTINE OULABOU\\SENS  MARTINE OULABOU- CARREFOUR BESSIEUX\\IMG_6188.jpg",
+      "coverImage": "panel-2026-041.jpg",
+      "point": {
+        "latitude": 0.4042833,
+        "longitude": 9.4440061,
+        "displayName": "Avenue Jean-Paul II, Plaine Orety, Vallée Sainte-Marie, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-042",
+      "label": "N°9 AVENUE JEAN PAUL II-MARTINE OULABOU — SENS CARREFOUR BESSIEUX- MARTINE OULABOU",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\N°9 AVENUE JEAN PAUL II-MARTINE OULABOU\\SENS CARREFOUR BESSIEUX- MARTINE OULABOU\\IMG_7904.jpg",
+      "coverImage": "panel-2026-042.jpg",
+      "point": {
+        "latitude": 0.4042833,
+        "longitude": 9.4440061,
+        "displayName": "Avenue Jean-Paul II, Plaine Orety, Vallée Sainte-Marie, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    },
+    {
+      "reference": "PUB-2026-043",
+      "label": "PETIT PARIS",
+      "sourceImage": "C:\\Users\\BC241\\Documents\\carte_interacrive_publicom\\publicom-carte-v2\\PANNEAUX  PUBLICOM\\PANNEAUX 2026\\PETIT PARIS\\F3C584AD-3D48-43A6-B097-0215B3E8A10B.PNG",
+      "coverImage": "panel-2026-043.png",
+      "point": {
+        "latitude": 0.396632,
+        "longitude": 9.4501391,
+        "displayName": "Petit Paris, 3ème Arrondissement, Libreville, Estuaire, Gabon"
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "reference": "PUB-2026-001",
+      "label": "Democracie",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-003",
+      "label": "N° 13 AGENCE G.TELECOM ANC RTG",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-005",
+      "label": "N° 21 ENTREE VOIE DE CONTOUNEMENT",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-012",
+      "label": "N° 6 Carrefour BOULINGUI",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-013",
+      "label": "N° 6 Carrefour BOULINGUI — SENS PETIT DUBAI- CARREFOUR BOULINGUI",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-017",
+      "label": "N° 9 RESIDENCE JADE",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-029",
+      "label": "N°27 COSMOPARC",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-035",
+      "label": "N°4 2ème PANNEAU CAMP AISSA",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-036",
+      "label": "N°4 CAMP AISSA 1",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-039",
+      "label": "N°7 PLAINE NIGER FACE CARREFOUR BOULINGUI",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    },
+    {
+      "reference": "PUB-2026-040",
+      "label": "N°7 PLAINE NIGER FACE CARREFOUR BOULINGUI — PLEIN NIGER",
+      "reason": "Repère introuvable dans OpenStreetMap"
+    }
+  ]
+}

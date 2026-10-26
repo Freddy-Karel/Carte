@@ -1,0 +1,1315 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>PUBLICOM</title>
+
+    <link rel="icon" href="discover/images/iconb.png" type="image/x-icon">
+    
+
+    <meta property="og:description"   content="Bordered by the forest and the sea, Gabon is a jewel of nature where elephants roam, whales swim in the ocean and hippos swim off sandy beaches. One of the most biodiverse nations on earth, and the most carbon positive, this central African state is a sanctuary for wildlife." />
+    <meta property="og:image"         itemprop="image" content="uploads/bancom.jpg" />
+    <link rel="stylesheet" href="assets/css/responsive.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.min.css"/>
+    <link rel="stylesheet" href="assets/css/custom.css"/>
+    <link rel="stylesheet" href="assets/css/custom2.css"/>
+
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/template3/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/template3/css/feather/iconfont.css">
+    
+    <link rel="stylesheet" href="assets/template3/css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="assets/template3/css/feather/iconfont.css">
+    <link rel="stylesheet" href="assets/template3/css/swiper/swiper.min.css">
+    <link rel="stylesheet" href="assets/template3/css/mCustomScrollbar/jquery.mCustomScrollbar.min.css">
+	  <link rel="stylesheet" href="assets/template3/css/font-awesome/all.min.css">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--===== Main theme css =====-->
+    <link rel="stylesheet" href="assets/template1/assets/css/master.css">
+    <script src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      .changeLang{background-color:#003DA5 !important}
+      .scheme_default .select_container {background-color: transparent !important;}
+      span.text-menu, .section-heading h2 {color: #003DA5;}
+    </style>
+  </head>
+  
+  <body>
+    
+  
+<!-- Discover Gabon -->
+    <section class="pt-60 pb-60 bg-fit bg-fix " data-jarallax='{"speed": 0.4}' style=" background-image: url(assets/img/BG5.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;">
+		
+		
+        <div class="container-fluid">
+            <style type="text/css">
+	.map {
+		max-width: 80%;
+		position: relative;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+		font-size: clamp(14px, 1.2vw, 18px);
+	}
+
+	section {
+    position: relative;
+    z-index: 1;
+}
+
+	section::before {
+    	content: "";
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	background-color: rgba(0, 0, 0, 0.283); /* Plus la valeur est proche de 1, plus c'est sombre */
+    	z-index: -1;
+	}
+
+	
+
+	.module,
+	.details {
+		width: 100%;
+    	max-width: 1200px;
+    	flex-direction: column;
+    	margin: auto;
+    	display: flex;
+    	font-size: clamp(14px, 1.2vw, 18px);
+    	font-family: "Comfortaa", Arial;
+    	width: 60%;
+    	position: relative;
+
+	}
+	.liste-gare {
+    	position: relative;
+    	
+    	font-size: 16px;
+    	font-weight: 500;
+    	
+    	border-radius: 5px;
+    	color: white;
+    	margin-bottom: 5px;
+    	cursor: pointer;
+    	display: block;
+	}
+
+
+	.module {
+		width: 60%;
+	}
+
+	.details {
+		width: 35%;
+		
+	}
+
+	@media (max-width:1000px) {
+
+		.module,
+		.details {
+			width: 100%;
+			
+			
+
+		}
+
+		.map {
+			display: block;
+		}
+		
+	}
+
+	@media (max-width:800px) {
+		.module {
+			font-size: .8em;
+		}
+	}
+
+	@media (max-width:600px) {
+		.module {
+			font-size: .7em;
+		}
+	
+	}
+
+	.carte {
+		max-width: 100%;
+		position: relative;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.province,
+	.gare,
+	.ville {
+		position: absolute;
+	}
+
+	.intitule, .intitule-vue {
+		line-height: .9em;
+		position: absolute;
+		text-align: left;
+		font-weight: 600;
+		width: max-content;
+		
+	}
+
+	.province .intitule {
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.gare.secondaire .intitule {
+		color: #fff;
+		opacity: 1;
+	}
+
+	.gare.secondaire.g-selected .intitule,
+	.gare.secondaire.rollover .intitule {
+		opacity: 1 !important;
+	}
+
+	.disque {
+		position:relative;
+		transform: translate(-5%, -50%);
+		background: #e20b17;
+		border-radius: 50%;
+	}
+
+	.secondaire .disque{background-color: #fff;}
+
+	.ville .disque {
+		background: #fdfdfd;
+		width: 0.6em;
+		height: 0.6em;
+	}
+
+	.gare .disque {
+		border: solid 1px #e20b17;
+		width: 0.9em;
+		height: 0.9em;
+	}
+
+	.ville .intitule {
+		color: #fff;
+	}
+
+	.gare.secondaire .disque{
+		width: .6em;
+		height: .6em;
+	}
+
+	#p1 {
+		left: 16.5%;
+		bottom: 61.5%;
+	}
+
+	#p2 {
+		left: 20.5%;
+		bottom: 55%;
+	}
+
+	#p3 {
+		left: 61%;
+		bottom: 74%;
+	}
+
+	#p4 {
+		left: 56%;
+		bottom: 44%;
+	}
+
+	#p5 {
+		left: 80%;
+		bottom: 55%;
+	}
+
+	/* #v1 {
+		left: 18%;
+		bottom: 67%;
+	} */
+
+	/* #v2 {
+		left: 6.8%;
+		bottom: 51.2%;
+	} */
+
+	/* #v3 {
+		left: 49.5%;
+		bottom: 85.2%;
+	} */
+
+	#v4 {
+		left: 27.7%;
+		bottom: 50.9%;
+	}
+
+	/* #v5 {
+		left: 41%;
+		bottom: 33.4%;
+	} */
+
+	#v6 {
+		left: 40.5%;
+		bottom: 18.8%;
+	}
+
+	#v7 {
+		left: 68%;
+		bottom: 69.5%;
+	}
+
+	#v8 {
+		left: 61.4%;
+		bottom: 44.8%;
+	}
+
+	#g1 {
+		left: 15.1%;
+		bottom: 90.5%;
+	}
+
+	#g2 {
+		right: 65%;
+		bottom: 82%;
+	}
+
+	#g3 {
+		right: 58%;
+		bottom: 65%;
+	}
+
+	#g4 {
+		left: 63.9%;
+		bottom: 58.4%;
+	}
+
+	#g5 {
+		left: 49.6%;
+		bottom: 50.7%;
+	}
+
+	#g6 {
+		left: 70.3%;
+		bottom: 44.7%;
+	}
+
+	#g7 {
+		right: 50.1%;
+		bottom: 30%;
+	}
+
+	#g8 {
+		left: 70.4%;
+		bottom: 20.3%;
+	}
+
+	#g9 {
+		left: 64.3%;
+		bottom: 35%;
+		
+	}
+
+	#g10 {
+		left: 15.1%;
+		bottom: 90.5%;
+		
+	}
+
+	#g11 {
+		right: 13.9%;
+		bottom: 31%;
+	}
+
+	#g12 {
+		left: 20%;
+		bottom: 63.5%;
+	}
+
+	#g13 {
+		left: 35.6%;
+		bottom: 42%;
+	}
+
+	#g14 {
+		left: 18%;
+		bottom: 67%;
+	}
+
+	#g15 {
+		left: 6.8%;
+		bottom: 51.2%;
+	}
+
+	#g16 {
+		left: 27.7%;
+		bottom: 50.9%;
+	}
+	#g30{
+		left: 15.8%;
+		bottom: 62.2%;
+	}
+
+	#g31{
+		left: 41%;
+		bottom: 33.4%;
+	}
+
+	#g32 {
+		left: 22%;
+		bottom: 25%;
+	}
+	#g33 {
+		left: 25.2%;
+		bottom: 45.5%;
+	}
+	#g34{
+		left: 37.4%;
+		bottom: 59.3%;
+	}
+
+	#g35{
+		left: 70.1%;
+		bottom: 35.6%;
+	}
+
+	#g36 {
+		left: 90%;
+		bottom: 37.8%;
+	}
+	#g37 {
+		left: 16%;
+		bottom: 67%;
+	}
+
+	#g17 {
+		left: 62.1%;
+		bottom: 56.1%;
+	}
+
+	#g18 {
+		left: 65.3%;
+		bottom: 52.9%;
+	}
+
+	#g19 {
+		left: 67.2%;
+		bottom: 49.5%;
+	}
+
+	#g20 {
+		left: 70.3%;
+		bottom: 47.7%;
+	}
+
+	#g21 {
+		left: 72.6%;
+		bottom: 45.1%;
+	}
+
+	#g22 {
+		left: 74.4%;
+		bottom: 41.5%;
+	}
+
+	#g23 {
+		left: 74.9%;
+		bottom: 38.7%;
+	}
+
+	#g24 {
+		left: 79.1%;
+		bottom: 36.6%;
+	}
+
+	#v1 .intitule {
+		right: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#v2 .intitule {
+		right: -2.1em;
+		bottom: 0.7em;
+	}
+
+	#v3 .intitule {
+		left: -1.5em;
+		bottom: 0.7em;
+	}
+
+	#v4 .intitule {
+		left: -3em;
+		bottom: -1.6em;
+	}
+
+	/* #v5 .intitule {
+		left: -1.8em;
+		bottom: -1.6em;
+	} */
+
+	#v6 .intitule {
+		left: -2.7em;
+		bottom: -1.6em;
+	}
+
+	#v7 .intitule {
+		left: -2.5em;
+		bottom: 0.7em;
+	}
+
+	#v8 .intitule {
+		left: -3.6em;
+		bottom: -1.6em;
+	}
+
+	#g1 .intitule {
+		left: 1em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g2 .intitule {
+		left: 1em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g3 .intitule {
+		left: 1em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g4 .intitule {
+		right: -9.2em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g5 .intitule {
+		right: -9.2em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g6 .intitule {
+		right: -12em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g7 .intitule {
+		right: 20em;
+		bottom: 10em;
+	}
+
+	#g8 .intitule {
+		right: -11.2em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g9 .intitule {
+		right: -12em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g10 .intitule {
+		right: -9.2em;
+		bottom: -0.5em;
+		text-align: center;
+	}
+
+	#g11 .intitule {
+		left: -3.4em;
+		bottom: -2em;
+	}
+
+	#g12 .intitule {
+		left: 1em;
+		bottom: -0.5em;
+	}
+
+	#g13 .intitule {
+		left: 1em;
+		bottom: -0.5em;
+	}
+
+	#g14 .intitule {
+		left: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#g15 .intitule {
+		right: -2.1em;
+		bottom: 0.7em;
+	}
+
+	#g16 .intitule {
+		left: -2.7em;
+		bottom: 0.7em;
+	}
+
+	#g30 .intitule {
+    right: 0.7em;
+    bottom: -0.5em;
+	}
+
+	#g32 .intitule {
+		right: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#g33 .intitule {
+		right: 1em;
+		bottom: -0.5em;
+	}
+	#g34 .intitule {
+		right: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#g35 .intitule {
+		right: -1.4em;
+		bottom: 0.5em;
+	}
+
+	#g36 .intitule {
+		left: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#g37 .intitule {
+		right: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#g17 .intitule {
+		left: 0.5em;
+		bottom: 0.5em;
+	}
+
+	#g18 .intitule {
+		left: 0.6em;
+		bottom: 0.2em;
+	}
+
+	#g19 .intitule {
+		right: 0.8em;
+		bottom: -0.5em;
+	}
+
+	#g20 .intitule {
+		left: 0.8em;
+		bottom: -0.1em;
+	}
+
+	#g21 .intitule {
+		left: 0.8em;
+		bottom: -0.2em;
+	}
+
+	#g22 .intitule {
+		left: 0.7em;
+		bottom: 0.2em;
+	}
+
+	#g23 .intitule {
+		left: 0.6em;
+		bottom: 0.3em;
+	}
+
+	#g24 .intitule {
+		left: -2em;
+		bottom: 0.8em;
+	}
+	#g31 .intitule {
+		right: 0.8em;
+		bottom: -0.5em;
+	}
+
+
+	#legende { 
+		left: -3em;
+		bottom: 0em;
+	}
+	#legende .disque{ 
+		left: -3.9em;
+		/* border-color: #009B3A; */
+		/* bottom: 0em; */
+	}
+
+	#legende .intitule {
+		opacity: 1;
+		left: -3em;
+		bottom: -0.5em;
+	}
+
+	#legende:hover {
+		cursor: pointer;
+	}
+
+	#gp {
+		left: 0em;
+		bottom: 3em;
+	}
+
+	#gs {
+		left: 0em;
+		bottom: 1em;
+		
+	}
+
+	
+
+	.liste {
+		columns: 2;
+		
+		
+		
+	
+	}
+
+	.liste-gare {
+		line-height: 1.2em;
+		margin-bottom: .5em;
+		padding-left: 0px;
+	}
+
+	.liste-gare.principale {
+		font-weight: bold;
+		font-size: clamp(14px, 1.2vw, 14px);
+		
+		
+		
+	}
+
+
+	.liste-gare.allover,
+	.liste-gare.rollover {
+		color: #0669c6;
+		cursor: pointer;
+	}
+
+	.detail-gare {
+		position: absolute;
+		
+		left: 0px;
+		top: 0px;
+		height: 100%;
+		width: 110%;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		padding: 5% 0;
+	}
+
+
+	.button {
+    	background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    	border-radius: 20px;
+    	padding: 10px 20px;
+    	color: white;
+    	font-weight: bold;
+	}
+
+	.button:hover {
+    	background: linear-gradient(135deg, #ff758c, #ff7eb3);
+	}
+
+	
+
+	@media(max-width:999px) {
+		.detail-gare {
+		position: absolute;
+		background: #fff;
+		font-size: 1.1rem;
+		left: 0px;
+		top: 0px;
+		padding: 5% 0;
+	}
+    .details {
+        margin-top: 25px; 
+		
+    }
+
+	
+
+
+	}
+
+	@media (min-width: 1001px) {
+		.map {
+			margin: 0 auto;
+			padding: 20px;
+			max-width: 80%;
+
+		}
+
+		.liste {
+			width: 130%;
+			margin-left: 47px;
+			padding: 20px;
+		}
+	}
+	@media (min-width: 1200px) {
+		.liste {
+			transform: translateY(-250px);
+		}
+	}
+
+	
+
+	.detail-gare .contenu {
+		background: rgba(255, 255, 255, 0.3);
+    	border-radius: 25px;
+    	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    	padding: 15px;
+	}
+
+
+	.dg-list {
+		width: 100%;
+	}
+
+	.dg-list,
+	.detail-gare {
+		opacity: 0;
+	}
+
+	.dg-selected {
+		opacity: 1;
+		z-index: 1;
+	}
+
+	.btn-fermer {
+		background: #fff;
+		color: #000 !important;
+		width: 30px;
+		height: 30px;
+		border-radius: 100%;
+		box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		text-align: center;
+		line-height: 30px;
+		cursor: pointer;
+	}
+
+	.btn-fermer:hover {
+		box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+	}
+
+
+	
+</style>
+
+<script type="text/javascript">
+	function gareOver(m) {
+		var x = document.getElementsByClassName(m);
+		var i = 0;
+		while (typeof(x[i]) !== 'undefined') {
+			x[i].classList.add("allover");
+			i += 1;
+		}
+	}
+
+	function gareOff(m) {
+		var x = document.getElementsByClassName(m);
+		var i = 0;
+		while (typeof(x[i]) !== 'undefined') {
+			if (x[i].classList.contains("allover")) {
+				x[i].classList.remove("allover");
+			};
+			i += 1;
+		}
+	}
+
+	function cursorOn(m) {
+		var x = document.getElementById("g" + m);  // Élément sur la carte (noir)
+		var y = document.getElementById("lg" + m); // Élément dans la liste (blanc)
+
+		x.classList.add("rollover");
+		y.classList.add("rollover");
+	}
+
+	function cursorOff(m) {
+		var x = document.getElementById("g" + m);
+		var y = document.getElementById("lg" + m);
+
+		x.classList.remove("rollover");
+		y.classList.remove("rollover");
+	}
+
+	function spotSelect(m) {
+		var g = document.getElementById("g" + m);
+		var lg = document.getElementById("lg" + m);
+		var dg = document.getElementById("dg" + m);
+		var prevg = document.getElementsByClassName("g-selected");
+		var prevdg = document.getElementsByClassName("dg-selected");
+		var i = 0;
+
+		while (typeof(prevg[i]) !== 'undefined') {
+			if (prevg[i].classList.contains("g-selected")) {
+				prevg[i].classList.remove("g-selected");
+			};
+			i += 1;
+		}
+		i = 0;
+		while (typeof(prevdg[i]) !== 'undefined') {
+			if (prevdg[i].classList.contains("dg-selected")) {
+				prevdg[i].classList.remove("dg-selected");
+			};
+			i += 1;
+		}
+
+		if (g) {
+			g.classList.add("g-selected");
+		};
+		if (dg) {
+			dg.classList.add("dg-selected");
+		};
+	}
+</script>
+<!-- HTML -->
+<div class="col-sm-8 section-heading pb-0">
+	<h2 class="wow fadeTop text-uppercase text-white" data-wow-delay="0.1s">PUBLICOM</h2>
+</div>
+<div class="map">
+	<div class="module">
+		<div class="carte">
+			<img src="assets/img/gabon-v.png" alt="" onClick="spotSelect('0')" />
+
+			
+
+			
+
+			
+
+			
+			
+
+			<!-- Parc national d'Akanda -->
+			<div class="gare principale" id="g10" onMouseOver="cursorOn('10')" onMouseOut="cursorOff('10')" onClick="spotSelect('10')">
+				<span class="intitule text-black">Zone Urbaine 1 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national de Birougou -->
+			<div class="gare principale" id="g2" onMouseOver="cursorOn('2')" onMouseOut="cursorOff('2')" onClick="spotSelect('2')">
+				<span class="intitule text-black">Zone Urbaine 2 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national d'Ivindo -->
+			<div class="gare principale" id="g3" onMouseOver="cursorOn('3')" onMouseOut="cursorOff('3')" onClick="spotSelect('3')">
+				<span class="intitule text-black">Zone Urbaine 3 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national de Loango -->
+			<div class="gare principale" id="g4" onMouseOver="cursorOn('4')" onMouseOut="cursorOff('4')" onClick="spotSelect('4')">
+				<span class="intitule text-black" style="opacity: 1;">Zone Urbaine 4 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national de la Lapé -->
+			<div class="gare principale" id="g5" onMouseOver="cursorOn('5')" onMouseOut="cursorOff('5')" onClick="spotSelect('5')">
+				<span class="intitule  text-black">Zone Urbaine 5 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national de Mayumba -->
+			<div class="gare principale" id="g6" onMouseOver="cursorOn('6')" onMouseOut="cursorOff('6')" onClick="spotSelect('6')">
+				<span class="intitule  text-black">Zone Aéroportuaire 1 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national de Minkébé -->
+			<div class="gare principale" id="g9" onMouseOver="cursorOn('9')" onMouseOut="cursorOff('9')" onClick="spotSelect('9')">
+				<span class="intitule  text-black">Zone Aéroportuaire 2 </span>
+				<div class="disque"></div>
+			</div>
+
+			<!-- Parc national des Monts de Cristal -->
+			<div class="gare principale" id="g8" onMouseOver="cursorOn('8')" onMouseOut="cursorOff('8')" onClick="spotSelect('8')">
+				<span class="intitule text-black">Zone Aéroportuaire 3  </span>
+				<div class="disque"></div>
+			</div>
+
+
+			
+			
+
+			
+
+		</div>
+	</div>
+
+	<div class="details">
+		<div class="dg-list dg-selected " id="dg0">
+		 
+	  
+		  <div class="liste mt-md-0 mt-4" style="height: 300px; position: relative;  ">
+			
+
+			<div class="liste-gare principale  text-white" id="lg10" onClick="spotSelect('10')">Zone Urbaine 1
+
+				Libreville</div> <br>
+
+			  <div class="liste-gare principale text-white" id="lg2" onClick="spotSelect('2')">Zone Urbaine 2
+
+				Libreville</div><br>
+
+			  <div class="liste-gare principale text-white" id="lg3" onClick="spotSelect('3')">Zone Urbaine 3
+
+				Libreville</div><br>
+
+			  <div class="liste-gare principale text-white" id="lg4" onClick="spotSelect('4')">Zone Urbaine 4
+
+				Libreville</div><br>
+			  
+			  <div class="liste-gare principale text-white" id="lg5" onClick="spotSelect('5')">Zone Urbaine 5 Libreville</div>
+
+			  <div class="liste-gare principale text-white" id="lg6" onClick="spotSelect('6')">Zone Aéroportuaire 1 <br>(Aéroport-Okala) Libreville</div><br>
+
+				<div class="liste-gare principale text-white" id="lg9" onClick="spotSelect('9')">Zone Aéroportuaire 2 <br>(Aéroport-Okala) Libreville</div><br>
+
+			  <div class="liste-gare principale text-white" id="lg8" onClick="spotSelect('8')">Zone Aéroportuaire 3 <br> Voie de Contournement </div>
+
+			 
+
+
+			 
+
+			
+		  </div>
+	  </div>
+
+	
+		<div class="detail-gare" id="dg8">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+																																<h4 class="text-white text-capitalize">Zone Aéroportuaire 2 (Aéroport-Okala) Libreville</h4>																							</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/montcristal/MontsJP005302.webp); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg1">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-vert ">
+				<h4 class="text-white text-capitalize">Akanda</h4>																																																			</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/akanda/AkandaJP015061.webp); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-success wow fadeTop mt-10" href="#">Discover more</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg12">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-vert ">
+																																																<h4 class="text-white text-capitalize">Pongara</h4>							</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/pongara/elephantpongara.webp); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-success wow fadeTop mt-10" href="#">Discover more</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg2">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+								<h4 class="text-white text-capitalize">Zone Urbaine 2 Libreville</h4></div>
+								<div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<div class="d-block w-100" style="background-image: url('assets/img/s2.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+											<div class="carousel-caption d-none d-md-block"> 
+												<h5 class=" bg-dark text-white fs-6 ">Ancienne Sobraga (multipress)</h5>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="d-block w-100" style="background-image: url('assets/img/s2.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+											<div class="carousel-caption d-none d-md-block">
+												<h5 class=" bg-dark text-white ">Avenue Jean-Paule II(BEAC)</h5>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="d-block w-100" style="background-image: url('assets/img/s2.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+											<div class="carousel-caption d-none d-md-block">
+												<h5 class=" bg-dark text-white ">SOCIGA</h5>
+											</div>
+										</div>
+									</div>
+									<!-- Flèches de navigation -->
+									<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									</button>
+									<button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									</button>
+								</div>
+								
+	
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg3">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+												<h4 class="text-white text-capitalize">Zone Urbaine 3 Libreville</h4></div>
+												<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+													<div class="carousel-inner">
+														<div class="carousel-item active">
+															<div class="d-block w-100" style="background-image: url('assets/img/s1.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+															<div class="carousel-caption d-none d-md-block">
+																<h5 class=" bg-dark text-white ">Bas de Gué Gué</h5>
+															</div>
+														</div>
+														<div class="carousel-item">
+															<div class="d-block w-100" style="background-image: url('assets/img/s2.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+															<div class="carousel-caption d-none d-md-block">
+																<h5 class=" bg-dark text-white ">Kalikak (spa yacine)</h5>
+															</div>
+														</div>
+														<div class="carousel-item">
+															<div class="d-block w-100" style="background-image: url('assets/img/s3.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+															<div class="carousel-caption d-none d-md-block">
+																<h5 class=" bg-dark text-white ">Petit Paris</h5>
+															</div>
+														</div>
+													</div>
+													<!-- Flèches de navigation -->
+													<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+														<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													</button>
+													<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+														<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													</button>
+												</div>
+												
+												<!-- Bouton Découvrir Plus -->
+		
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg5">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+																				<h4 class="text-white text-capitalize">Zone Urbaine 5 Libreville</h4>																																			</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/lope/LopeIMG_6970.jpg); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg4">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+																<h4 class="text-white text-capitalize">Zone Urbaine 4 Libreville</h4>																																							</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/loango/_DSC9168Loango.jpg); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg6">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+																								<h4 class="text-white text-capitalize">Zone Aéroportuaire 1 (Aéroport-Okala) Libreville</h4>																															</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/mayumba/MayumbaD1SEA011AUG04D_002.jpg); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg7">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-vert ">
+																												<h4 class="text-white text-capitalize">Minkébé</h4>																											</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/minkebe/MinkebeJP053626.jpg); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-success wow fadeTop mt-10" href="park/1221.html">Discover more</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		<div class="detail-gare" id="dg9">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+																																				<h4 class="text-white text-capitalize">Zone Aéroportuaire 2 (Aéroport-Okala) Libreville</h4>																			</div>
+			<div class="col-md-12 px-0" style="background-image: url(uploads/parcs/moukalaba-doudou/MoukalaJP041102.webp); background-repeat:no-repeat; background-size:cover; background-position:center; height:175px"></div>
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+	<div class="detail-gare" id="dg10">
+		<div class="contenu">
+			<div class="col-12 text-center mb-1 p-1 bg-danger ">
+								<h4 class="text-white text-capitalize">Zone Urbaine 1 Libreville</h4></div>
+								<div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<div class="d-block w-100" style="background-image: url('assets/img/s1.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+											<div class="carousel-caption d-none d-md-block"> 
+												
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="d-block w-100" style="background-image: url('assets/img/s1.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+											<div class="carousel-caption d-none d-md-block">
+											
+											</div>
+										</div>
+										<div class="carousel-item">
+											<div class="d-block w-100" style="background-image: url('assets/img/s1.jpg'); background-size: cover; background-position: center; height: 175px;"></div>
+											<div class="carousel-caption d-none d-md-block">
+												
+											</div>
+										</div>
+									</div>
+									<!-- Flèches de navigation -->
+									<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									</button>
+									<button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									</button>
+								</div>
+								
+	
+			
+						<a class="btn btn-danger wow fadeTop mt-10" href="#">Découvrir Plus</a>
+					</div>
+		<div class="btn-fermer" onClick="spotSelect('0')"><strong>&#10005;</strong></div>
+	</div>
+		
+
+	
+	
+
+	
+	
+
+
+<a href="#" class="trx_addons_scroll_to_top trx_addons_icon-up" title="Scroll to top"></a>
+
+
+<!-- Ajax Modal -->
+<div class="d-none">
+
+  <div id="ajax-modal"></div>
+  <!-- Ajax Close -->
+  <a href="#" class="ajax-close" data-dismiss="ajax-modal"><i class="ti-close"></i></a>
+  <!-- Ajax Loader -->
+  <svg id="ajax-loader" class="loader" width="32px" height="32px" viewBox="0 0 66 66"
+    xmlns="http://www.w3.org/2000/svg">
+    <circle class="circle" fill="none" stroke-width="5" stroke-linecap="round" cx="32" cy="32" r="32"></circle>
+  </svg>
+
+  <!-- Modal / Video -->
+  <div class="modal modal-video fade" id="modalVideo" role="dialog">
+    <button class="close" data-dismiss="modal"><i class="ti-close"></i></button>
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <iframe height="500"></iframe>
+      </div>
+    </div>
+  </div>
+</div>   
+    <!-- Ajax Modal -->
+    
+
+  </body>
+  <!-- Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QRCWX8CLWZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QRCWX8CLWZ');
+</script>
+
+  <script type='text/javascript' src="assets/js/vendor/jquery.js"></script>
+  <script type='text/javascript' src="assets/js/__scripts.js"></script>
+  <script type='text/javascript' src="assets/js/custom/custom.js"></script>
+  
+  <script src="assets/template3/js/popper.min.js"></script>
+  <script src="assets/template3/js/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/template3/js/appear/jquery.appear.js"></script>
+  <script src="assets/template3/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="assets/template3/js/isotope/isotope.pkgd.min.js"></script>
+  <script src="assets/template3/js/typer/typer.js"></script>
+  <script src="assets/template3/js/jarallax/jarallax.min.js"></script>
+  <script src="assets/template3/js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+  <script src="assets/template3/js/functions.js"></script>
+  <script src="assets/template3/js/swiper/swiper.min.js"></script>
+  <!-- SCRIPT 2 -->
+  
+  <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <!-- rs5.0 core files -->
+  <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
+  <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
+  <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+  
+  <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+  
+  <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+  
+  <!-- revolutions slider script -->
+  <script src="assets/revolution/js/revolution.js"></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <script type="text/javascript">
+  
+    var url = "index.html";
+  
+    $(".changeLang").change(function(){
+        window.location.href = url + "?lang="+ $(this).val();
+    });
+  
+  </script>
+
+
+<!-- Mirrored from www.discovergabon.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Jul 2024 11:10:23 GMT -->
+</html>

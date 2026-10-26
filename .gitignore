@@ -1,0 +1,15 @@
+# Dépendances et sorties régénérables
+**/node_modules/
+**/.next/
+**/out/
+**/coverage/
+
+# Secrets et fichiers locaux
+**/.env
+**/.env.*
+!.env.example
+**/.DS_Store
+*.log
+
+# Archives source haute définition : les médias réellement utilisés sont dans web/public/media.
+publicom-carte-v2/PANNEAUX  PUBLICOM/PANNEAUX 2026/
