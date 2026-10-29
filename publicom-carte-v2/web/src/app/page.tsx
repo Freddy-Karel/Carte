@@ -63,7 +63,7 @@ export default function Home() {
     <section className="showcase-hero" id="top">
       <div className="hero-aura hero-aura--one" /><div className="hero-aura hero-aura--two" />
       <div className="hero-copy-wrap"><p className="showcase-eyebrow">Régie publicitaire · Gabon</p><h1>Placez votre marque <em>au bon endroit.</em></h1><p>Un réseau d’affichage premium, pensé pour créer des rencontres fortes entre vos campagnes et les publics de Libreville.</p><a className="hero-action" href="#explorer">Explorer le réseau <span>↓</span></a></div>
-      <div className="hero-media"><Image src="/media/panels-2026/panel-2026-009.jpg" alt="Panneau Publicom sur un axe urbain de Libreville" fill priority sizes="(max-width: 800px) 100vw, 48vw" /><div className="hero-media-shade" /><div className="hero-media-caption"><span>PUBLICOM / 01</span><strong>La visibilité en mouvement</strong></div></div>
+      <div className="hero-media"><Image src="/media/panels-2026/hero-glass-oloumi.jpg" alt="Panneau Publicom Glass sur l'axe Oloumi à Libreville" fill priority sizes="(max-width: 800px) 100vw, 48vw" /><div className="hero-media-shade" /><div className="hero-media-caption"><span>PUBLICOM / 01</span><strong>La visibilité en mouvement</strong></div></div>
       <div className="hero-metrics"><div><b>{supports.length.toString().padStart(2, "0")}</b><span>supports référencés</span></div><div><b>{supports.filter((support) => support.status === "Disponible").length.toString().padStart(2, "0")}</b><span>opportunités actives</span></div></div>
     </section>
 
